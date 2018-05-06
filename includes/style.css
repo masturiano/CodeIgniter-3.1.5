@@ -1,0 +1,53 @@
+/*------------  
+TEAM FONT
+--------------*/
+@import url(http://localhost/CodeIgniter-3.1.5/includes/fonts/Exo/Exo-Bold.ttf);
+@import url(http://localhost/CodeIgniter-3.1.5/includes/fonts/Source_Code_Pro/SourceCodePro-Light.ttf);
+
+@font-face {
+    font-family: "Exo";
+    src: url(http://localhost/CodeIgniter-3.1.5/includes/fonts/Exo/Exo-Bold.ttf);
+}
+
+*{
+        font-family: 'Exo', sans-serif;
+}
+
+/*------------  
+LOGIN PAGE
+--------------*/
+#login-header-top{
+        width:100%;
+        height:40px;
+        padding:0px;
+        margin-bottom: 10px;
+        border:1px;
+        border-color: black;
+        border-style: solid;
+        display:inline-block;
+        background-color: #222222;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+}
+
+#login-header-top p{
+        margin:0;
+        text-align:center;
+        vertical-align: middle;
+        line-height: 40px;
+        color:#fff;
+}
+
+#login-header-bottom{
+        width:100%;
+        height:40px;
+        padding:0px;
+        margin-bottom: 10px;
+        border:1px;
+        border-color: black;
+        border-style: solid;
+        display:inline-block;
+        background-color: #222222;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+}
